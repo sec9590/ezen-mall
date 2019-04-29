@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<a class="navbar-brand" href="../admin/index.jsp">이젠쇼핑몰 관리자&nbsp;&nbsp;<i class="glyphicon glyphicon-wrench"></i></a>
+				</div>
+				<div class="col-md-4">
+					<p class="navbar-text navbar-right">
+						Copyright &copy; 2018, C.K.Kim. All rights reserved.
+					</p>
+				</div>
+				<div class="col-md-5">
+					<p class="navbar-text navbar-right">
+						자바기반 빅데이터 머신러닝 활용&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- /.container-fluid -->
+	</nav>

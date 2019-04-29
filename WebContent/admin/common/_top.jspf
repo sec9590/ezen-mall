@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<a class="navbar-brand" href="../admin/index.jsp">이젠쇼핑몰 관리자&nbsp;&nbsp;<i class="glyphicon glyphicon-wrench"></i></a>
+				</div>
+				<div class="col-md-5">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="../control/adminControl.jsp?action=listCustomer">고객 목록&nbsp;&nbsp;<i class="glyphicon glyphicon-user"></i></a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							일 단위&nbsp;<i class="glyphicon glyphicon-calendar"></i>&nbsp;&nbsp;<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="../control/adminControl.jsp?action=dailySales">일단위 고객별 주문 내역</a></li>
+								<li class="divider"></li>
+								<li><a href="../control/adminControl.jsp?action=dailyByProduct">일단위 상품별 주문 내역</a></li>
+							</ul>
+						</li>
+						<li><a href="../control/adminControl.jsp?action=wholeSales&page=1">주문이력&nbsp;<i class="glyphicon glyphicon-list-alt"></i></a></li>
+						<li><a href="../control/adminControl.jsp?action=inventory">판매된 상품&nbsp;<i class="glyphicon glyphicon-qrcode"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="navbar-text navbar-right">
+						관리자님 환영합니다.&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container-fluid -->
+	</nav>
